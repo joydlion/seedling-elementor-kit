@@ -1,7 +1,14 @@
-# Good to Grow Therapy · Elementor template kit
+# Seedling · No-add-on Elementor Pro template kit
 
-Private source for the Good to Grow Therapy website kit ("Growth Chart" design).
-Built for **Elementor 4.4 + Elementor Pro** on the **Hello Elementor** theme, using stock widgets only.
+A complete website template kit built **only with stock Elementor and Elementor Pro widgets**: no add-on plugins, no image files, no page-builder extras.
+First built for **Good to Grow Therapy**, a K-12 school-based therapy provider ("Growth Chart" design).
+
+- **Stack:** WordPress, Hello Elementor theme, Elementor 4.4 + Elementor Pro
+- **Accessibility:** built to WCAG 2.1 AA (contrast-checked palette, keyboard-friendly menu and accordions, visible focus, labelled form fields, reduced-motion support)
+- **Performance:** illustrations are inline SVG drawn from code, motion is CSS-only and runs only on hover or scroll, two font families, no sliders or autoplay
+- **Kit contents:** Theme Builder header and footer, 11 pages, global colors and fonts, three Elementor Pro forms with thank-you redirects
+
+Open `prototype/index.html` for a static preview of every page.
 
 ## What's here
 
@@ -40,7 +47,8 @@ git push && git push --tags
 
 **Styling-only change?** You can skip a full re-import: paste `kit-src/elementor.css` into **Site Settings → Custom CSS** (replace `{{TORN}}` with the contents of `kit-src/torn.txt`, or copy the CSS from the built zip's `site-settings.json`).
 
-## Notes
+## License and credits
 
-- Client material (build brief, copy) belongs to Good to Grow Therapy, LLC. Keep this repository **private**.
-- Built with Claude (Anthropic) as an assistant; reviewed and maintained by Joy De Leon.
+- **Code** (Python build scripts, CSS, SVG generators) is released under the [MIT License](LICENSE).
+- **The Good to Grow Therapy name, website copy and brand** belong to Good to Grow Therapy, LLC and are **not** covered by the MIT License. Shown here as a case study with permission.
+- Designed and built by Joy De Leon ([@joydlion](https://github.com/joydlion)), with Claude (Anthropic) as an AI assistant. All output was directed and reviewed by Joy.
